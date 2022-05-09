@@ -2,7 +2,7 @@ oceny = open("C:\\Users\\kdabek\\Desktop\\UpSkill - Python\\dane_wejsciowe\\spri
 print(oceny)
 content = oceny.read()
 print(content)
-content_list = content. split("\n")
+content_list = content.split("\n")
 oceny.close()
 print(content_list)
 
