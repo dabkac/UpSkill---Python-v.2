@@ -6,7 +6,7 @@ with open("C:\\Users\\kdabek\\Desktop\\UpSkill - Python\\dane_wejsciowe\\sprint1
     for line in file:
         linesplited = line.strip().split(',')
         name = linesplited[0]
-        print(str(name))
+        # print(str(name))
         liczby = linesplited[1:]
         all_oceny = []
         for x in liczby: 
@@ -16,10 +16,11 @@ with open("C:\\Users\\kdabek\\Desktop\\UpSkill - Python\\dane_wejsciowe\\sprint1
         dlugosc = len(all_oceny)
         suma = sum(all_oceny)
         avg = suma/dlugosc
-        print(avg)
+        print(name, end=" ")
+        print(round(avg, 2))
 
             # przypisanie sredniej do ucznia 
-                        
+            # dokumentacja printa , połączenie w jednej lini
             
             
             
