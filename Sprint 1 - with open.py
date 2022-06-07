@@ -30,11 +30,6 @@ with open("C:\\Users\\kdabek\\Desktop\\UpSkill - Python\\dane_wejsciowe\\sprint1
        # print(sorted_list_marks)
         
         
-        
-        
-    
-# da się z jednego printAa
-
             # słowniki 
             # przypisanie sredniej do ucznia - przypisanie do jednej zmiennej, dać mozliwość wyboru , 
             # sortowanie po im i sredniej
